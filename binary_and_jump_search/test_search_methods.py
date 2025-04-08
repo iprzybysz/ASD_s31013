@@ -1,9 +1,6 @@
 import time
 import unittest
-
 from search_methods import binary_search, jump_k
-
-import unittest
 
 class TestSearchMethods(unittest.TestCase):
 
