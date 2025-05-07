@@ -24,7 +24,7 @@ def merge_sort(S: list[int]):
     return merge(left, right)
 
 
-def merge(a1, a2):
+def merge(a1: list[int], a2: list[int]):
     i = j = 0
     result = [] 
     
@@ -47,7 +47,7 @@ def merge(a1, a2):
     return result
 
 
-def quicksort(a, l, r):
+def quicksort(a: list[int], l: int, r: int):
     if l >= r:
         return
     
