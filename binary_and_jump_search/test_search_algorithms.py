@@ -1,8 +1,8 @@
 import time
 import unittest
-from search_methods import binary_search, jump_k
+from search_algorithms import binary_search, jump_k
 
-class TestSearchMethods(unittest.TestCase):
+class TestSearchAlgorithms(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
